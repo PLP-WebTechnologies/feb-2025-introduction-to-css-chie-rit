@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+button {
+    all: unset;
+    padding: .5rem 1.25rem;
+    cursor: pointer;
+}
+
+.light-button {
+    border: 1px solid #ccc;
+}
+
+.light-button:hover {
+    background-color: #ddd;
+}
+
+.dark-button {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.dark-button:hover {
+    background-color: #2e2e2e;
+}
+
+body {
+    font-family: 'Poppins';
+    color: #1a1a1a;
+    background-color: #fefefe;
+    width: 100%;
+    height: 100vh; 
+}
+
+img {
+    display: block;
+}
+
+.product-image {
+    width: 40rem;
+    height: calc(100vh - 10rem);
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.blue {
+    background-color: #6488ea;
+}
+
+.gray {
+    background-color: #444;
+    outline: dashed 2px #444;
+    outline-offset: 2px;
+}
+
+.brown {
+    background-color: #b7825f;
+}
+
+/* nav */
+nav {
+    padding: 1.25rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list, .icon-list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* products */
+#product {
+    padding: 1.25rem 6rem;
+}
+
+.product__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.product--content {
+    height: auto;
+}
+
+.product--content h1 {
+    font-family: 'Cabin Sketch';
+    font-size: 4rem;
+}
+
+.product--content p {
+    color: #666;
+    font-size: 16px;
+    margin: 1.25rem 0;
+}
+
+.product--cta {
+    width: 100%;
+}
+
+.product--cta button {
+    margin-left: 1.25rem;
+}
+
+.product--var {
+    margin: 2rem 0;
+}
+
+.product--var span {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
